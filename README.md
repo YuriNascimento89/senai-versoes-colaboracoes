@@ -1,7 +1,10 @@
 # senai-versoes-colaboracoes
 
-readme de exemplo
+Iniciar git
+git init
 
+Mostrar status
+git status
 
 adicionar arquivos 
 git add .
@@ -9,10 +12,14 @@ git add .
 salvar commit 
 git commit -m "comentário do commit"
 
-git push origin main
-para fazer branch
+visualisar alterações feitas
+git log
 
-git push origin nome-da-branch
+Visualizar informações sobre qualquer commit
+git show
+
+Publica as alterações no repositório remoto
+git push origin master 
 
 Para puxar do repositório remoto para o local
 git pull
